@@ -9,66 +9,66 @@ const quizdata = [
         answer: "noun clause",
         correct: 1
     },
-    // {
-    //     question: "I waited for my friend <u class = 'under'>until he arrived</u>.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "adverb clauses",
-    //     correct: 2
-    // },
-    // {
-    //     question: "Can you tell me the reason <u class = 'under'>why you are looking upset</u>?",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "adjective clause",
-    //     correct: 3
-    // },
-    // {
-    //     question: "This is the city <u class = 'under'>where I was born</u>.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "adjective clause",
-    //     correct: 3
-    // },
-    // {
-    //     question: "<u class = 'under'>If you eat too much</u>, you may fall ill.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "adverb clauses",
-    //     correct: 2
-    // },
-    // {
-    //     question: "<u class = 'under'>That honesty is the best policy</u> is a well-known fact.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "noun clause",
-    //     correct: 1
-    // },
-    // {
-    //     question: "Show me the place <u class = 'under'>where you put those lemons</u>.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "adjective clause",
-    //     correct: 3
-    // },
-    // {
-    //     question: "Do not go <u class = 'under'>until I get ready</u>.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "adverb clauses",
-    //     correct: 2
-    // },
-    // {
-    //     question: "I expected <u class = 'under'>that I would get the first prize</u>.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "noun clause",
-    //     correct: 1
-    // },
-    // {
-    //     question: "The police have caught the man <u class = 'under'>who committed the theft last night</u>.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "adjective clause",
-    //     correct: 3
-    // },
-    // {
-    //     question: "You can put the book down <u class = 'under'>wherever you like</u>.",
-    //     options: ["noun clause", "adverb clauses", "adjective clause"],
-    //     answer: "adverb clauses",
-    //     correct: 2
-    // },
+    {
+        question: "I waited for my friend <u class = 'under'>until he arrived</u>.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "adverb clauses",
+        correct: 2
+    },
+    {
+        question: "Can you tell me the reason <u class = 'under'>why you are looking upset</u>?",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "adjective clause",
+        correct: 3
+    },
+    {
+        question: "This is the city <u class = 'under'>where I was born</u>.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "adjective clause",
+        correct: 3
+    },
+    {
+        question: "<u class = 'under'>If you eat too much</u>, you may fall ill.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "adverb clauses",
+        correct: 2
+    },
+    {
+        question: "<u class = 'under'>That honesty is the best policy</u> is a well-known fact.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "noun clause",
+        correct: 1
+    },
+    {
+        question: "Show me the place <u class = 'under'>where you put those lemons</u>.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "adjective clause",
+        correct: 3
+    },
+    {
+        question: "Do not go <u class = 'under'>until I get ready</u>.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "adverb clauses",
+        correct: 2
+    },
+    {
+        question: "I expected <u class = 'under'>that I would get the first prize</u>.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "noun clause",
+        correct: 1
+    },
+    {
+        question: "The police have caught the man <u class = 'under'>who committed the theft last night</u>.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "adjective clause",
+        correct: 3
+    },
+    {
+        question: "You can put the book down <u class = 'under'>wherever you like</u>.",
+        options: ["noun clause", "adverb clauses", "adjective clause"],
+        answer: "adverb clauses",
+        correct: 2
+    },
 ];
 /** Random shuffle questions **/
 function shuffleArray(question) {
